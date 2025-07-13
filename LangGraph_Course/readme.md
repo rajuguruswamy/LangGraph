@@ -83,3 +83,18 @@ AI Message : Represents output from the AI.
 System Message : Represents instructions or context provided to the AI.
 Tool Message : Represents the output of a tool used in the workflow.
 Function Message : Represents the output of a function used in the workflow.
+
+
+# Agents
+## setup python virtual environment 
+py -3.12 --version
+py -3.12 -m venv venv
+venv\Scripts\activate.bat
+python --version
+
+## packages 
+pip install langgraph
+pip install langchain langchain-community
+pip install ollama
+pip install -qU langchain-ollama
+pip install python-dotenv
