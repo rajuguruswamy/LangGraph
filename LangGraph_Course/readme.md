@@ -98,3 +98,29 @@ pip install langchain langchain-community
 pip install ollama
 pip install -qU langchain-ollama
 pip install python-dotenv
+
+pip install pytesseract pdf2image 
+pip install setuptools
+
+
+## Install following ocr 
+  
+  ### WINSDOWS
+https://github.com/UB-Mannheim/tesseract/wiki
+tesseract.exe tesseract-ocr-w64-setup-5.5.0.20241111.exe 
+
+### MAC
+brew install tesseract
+tesseract --version
+pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract" 
+
+
+
+## PaddleOCR
+pip install paddleocr
+pip install paddlepaddle -f https://www.paddlepaddle.org.cn/whl/simple
+
+## mac : 
+pip install paddlepaddle -f https://www.paddlepaddle.org.cn/whl/macos.html
+
+
